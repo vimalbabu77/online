@@ -341,15 +341,27 @@ nav a:hover::before {
 .first-content h2 {
 	font-size: 36px;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 400;
 	color: #fff;
 	letter-spacing: 0.5px;
 	border-bottom: 2px solid #fff;
+	display: inline-block;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+.first-content h3 {
+	font-size: 20px;
+	text-transform: capitalize;
+	font-weight: 100;
+	color: #fff;
+	letter-spacing: 0.5px;
 	display: inline-block;
 	padding-bottom: 10px;
 	margin-bottom: 20px;
 	margin-top: 0px;
 }
+
 
 .first-content p {
 	color: #fff;
@@ -357,7 +369,7 @@ nav a:hover::before {
 	text-transform: uppercase;
 	font-weight: 300;
 	letter-spacing: 2px;
-	line-height: 26px;
+	line-height: 22px;
 	margin-bottom: 20px;
 }
 
