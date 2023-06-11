@@ -436,20 +436,20 @@ nav a:hover::before {
 	float: right;
 }
 
-.second-content .left-content {
+.second-content .left-content, .second-content .right-content {
 	padding: 60px;
 	text-align: left;
 }
 
 .second-content h2 {
-	font-size: 36px;
+	font-size: 25px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #fff;
 	letter-spacing: 0.5px;
 	border-bottom: 2px solid #fff;
 	display: inline-block;
-	padding-bottom: 10px;
+	padding-bottom: 3px;
 	margin-bottom: 20px;
 	margin-top: 0px;
 }
